@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "more-func": "/components/more-func",
+    "van-circle": "@vant/weapp/circle/index"
+  }
+}
