@@ -1,0 +1,49 @@
+<!--pages/point/point.wxml-->
+
+<view class="contentList">
+  <view class="user-point-text">我的积分</view>
+  <!-- 占位 -->
+  <view style="height:20rpx"></view>
+  <view class="user-point">{{MyPoint}}</view>
+  <!-- 占位 -->
+  <view style="height:40rpx"></view>
+
+    <block wx:for="{{Gift}}">
+      <!-- 占位 -->
+      <view style="height:10rpx"></view>
+      <view class="content">
+        <view class="contentImg">
+          <image src="{{item.image_url}}" mode="widthHeight" lazy-load="false" ></image>
+        </view>
+        <view class="content-right">
+          <view class="title">
+            <view class="titleText">{{item.gift_name}}</view>
+            <view class="introduction">{{item.gift_introduction}}</view>
+          </view>
+          <view class="count">
+            <view class="pointcount">需要 {{item.point}}分</view>
+            <view class="stockcount">剩余 {{item.stock}}</view>
+          </view>
+          <view>
+            {{item.last_time[0]}}{{item.last_time[1]}}{{item.last_time[2]}}{{item.last_time[3]}}年{{item.last_time[5]}}{{item.last_time[6]}}月{{item.last_time[8]}}{{item.last_time[9]}}日前有效
+          </view>
+          <!-- 占位 -->
+          <view style="height:20rpx"></view>
+          <view wx:if="{{item.stock>0}}">
+            <view class="exchange_btn" bindtap="tap_exchange_btn" data-index1="{{item.gift_id}}" data-index2="{{item.point}}" data-index3="{{item.gift_name}}">
+              <view class="exchange_text" style="font-size: 30rpx;padding:10rpx;  text-align: center;">兑换</view>
+            </view>
+          </view>
+          <view wx:else>
+            <view class="exchange_btn_outofstock">
+              <view class="exchange_text" style="font-size: 30rpx;padding:10rpx;  text-align: center;">兑换</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+
+
+
+
