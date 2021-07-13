@@ -5,57 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    /*  articles:[
-        {
-            articleTitle:"心情不好？以下是晴天AI为您智能推荐的疏解方案（文章）",
-            articleImage:"/assets/article.png",
-            nextpage:"/pages/Recommend/Articles/Article1"
-        },
-        {
-          articleTitle:"心情不好？以下是晴天AI为您智能推荐的疏解方案（文章）",
-          articleImage:"/assets/article.png",
-          nextpage:"/pages/Recommend/Articles/Article1"
-        },
-        {
-          articleTitle:"心情不好？以下是晴天AI为您智能推荐的疏解方案（文章）",
-          articleImage:"/assets/article.png",
-          nextpage:"/pages/Recommend/Articles/Article1"
-        },
-        {
-          articleTitle:"心情不好？以下是晴天AI为您智能推荐的疏解方案（文章）",
-          articleImage:"/assets/article.png" ,
-          nextpage:"/pages/Recommend/Articles/Article1"     },
-        {
-          articleTitle:"心情不好？以下是晴天AI为您智能推荐的疏解方案（文章）",
-          articleImage:"/assets/article.png",
-          nextpage:"/pages/Recommend/Articles/Article1"
-        },
-        {
-          articleTitle:"心情不好？以下是晴天AI为您智能推荐的疏解方案（文章）",
-          articleImage:"/assets/article.png",
-          nextpage:"/pages/Recommend/Articles/Article1"
-        },
-        {
-          articleTitle:"心情不好？以下是晴天AI为您智能推荐的疏解方案（文章）",
-          articleImage:"/assets/article.png",
-          nextpage:"/pages/Recommend/Articles/Article1"
-        },
-        {
-          articleTitle:"心情不好？以下是晴天AI为您智能推荐的疏解方案（文章）",
-          articleImage:"/assets/article.png",
-          nextpage:"/pages/Recommend/Articles/Article1"
-        },
-        {
-          articleTitle:"心情不好？以下是晴天AI为您智能推荐的疏解方案（文章）",
-          articleImage:"/assets/article.png",
-          nextpage:"/pages/Recommend/Articles/Article1"
-        },
-        {
-          articleTitle:"心情不好？以下是晴天AI为您智能推荐的疏解方案（文章）",
-          articleImage:"/assets/article.png",
-          nextpage:"/pages/Recommend/Articles/Article1"
-        },
-    ]*/
+    
     articles: [{
       articleTitle: "",
       articleImage: "",
