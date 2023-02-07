@@ -180,7 +180,7 @@ Page({
    */
   onReachBottom: function () {
     wx.showToast({
-      title: '我也是有底线的哟~',
+      title: '已经到底了呦~',
       icon: 'none',
       duration: 700//持续的时间
     })

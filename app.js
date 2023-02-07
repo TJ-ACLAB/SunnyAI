@@ -110,7 +110,7 @@ App({
     session_key:"",
     openid:"",
     point:0,
-    oldurl:"http://127.0.0.1:4863/",
-    oldurl1:"http://3007h50y18.qicp.vip/",
+    oldurl1:"http://127.0.0.1:4863/",
+    oldurl:"http://3007h50y18.qicp.vip/",
     }
 })
