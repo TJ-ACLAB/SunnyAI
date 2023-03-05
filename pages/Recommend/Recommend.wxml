@@ -2,7 +2,7 @@
 <!--<text>pages/Recommend/Recommend.wxml</text>-->
 
 <view class="recommend-list">  
-<view class="recommend-title">晴天AI推荐您</view>
+<view class="recommend-title">Welcome SunnyAi</view>
 <view  class="recommend-item"> 
 <block wx:for="{{articles}}" >
     <navigator url="pages/Recommend/Recommend" bindtap='goArticle' data-urlnext='{{item.nextpage}}' class="container"  >
